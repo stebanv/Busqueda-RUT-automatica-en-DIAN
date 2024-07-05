@@ -4,7 +4,7 @@
 Este script permite automatizar la búsqueda de cédulas en la página de consulta de estado RUT de la DIAN y genera un archivo de texto con los resultados, indicando si cada cédula tiene RUT o no.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Requisitos*
+**Requisitos**
 1. Python
 
 
@@ -22,7 +22,7 @@ pip installopenpyxl
 
 3. Archivo Excel: Debes tener un archivo Excel que contenga las cédulas en la columna A. La ruta de este archivo debe ser especificada en la variable ruta_excel dentro del script.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Instrucciones*
+**Instrucciones**
 
 1. Configuración del Script:
 
@@ -45,7 +45,7 @@ python busqueda_rut.py
 py busqueda_rut.py
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Resultados*
+**Resultados**
 
 El script abrirá una ventana de Google Chrome y comenzará a buscar cada cédula en la página de la DIAN.
 Los resultados se guardarán en un archivo llamado resultados.txt en el mismo directorio donde se encuentra el script.
@@ -53,7 +53,7 @@ En resultados.txt, cada línea tendrá el formato cédula - X, donde X será 1 s
 Detalles del Código.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*¿Cómo funciona el código?*
+**¿Cómo funciona el código?**
 
 Importación de Bibliotecas: El script utiliza pandas para leer el archivo Excel, selenium para automatizar el navegador, y webdriver-manager para gestionar la descarga de ChromeDriver.
 
