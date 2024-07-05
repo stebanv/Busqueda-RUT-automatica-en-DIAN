@@ -11,9 +11,13 @@ Este script permite automatizar la búsqueda de cédulas en la página de consul
 2. Dependencias: Instala las bibliotecas necesarias utilizando pip. Abre una terminal y ejecuta los siguientes comandos:
 
 pip install pandas
+
 pip install selenium
+
 pip installwebdriver-manager
+
 pip installopenpyxl
+
 
 
 3. Archivo Excel: Debes tener un archivo Excel que contenga las cédulas en la columna A. La ruta de este archivo debe ser especificada en la variable ruta_excel dentro del script.
