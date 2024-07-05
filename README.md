@@ -50,7 +50,6 @@ py busqueda_rut.py
 El script abrirá una ventana de Google Chrome y comenzará a buscar cada cédula en la página de la DIAN.
 Los resultados se guardarán en un archivo llamado resultados.txt en el mismo directorio donde se encuentra el script.
 En resultados.txt, cada línea tendrá el formato cédula - X, donde X será 1 si la cédula tiene RUT y 0 si no tiene RUT.
-Detalles del Código.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **¿Cómo funciona el código?**
